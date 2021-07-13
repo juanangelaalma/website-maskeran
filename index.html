@@ -25,6 +25,9 @@
       .flex-50 {
         flex: 50%
       }
+      .mt-section {
+        margin-top: 50px;
+      }
     </style>
     <link rel="stylesheet" href="assets/css/navbar.css" />
     <link rel="stylesheet" href="assets/css/fonts.css" />
@@ -33,6 +36,7 @@
       href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
     />
     <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" href="assets/css/info.css">
   </head>
   <body>
     <header>
@@ -56,33 +60,47 @@
       </nav>
     </header>
 
-    <section class="home">
-      <div class="container">
-        <div class="flex-50 left-bar">
-          <h1>Tangkal Virus dengan Masker</h1>
-          <p class="description">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti
-            dolor ipsam magni quos repudiandae magnam veritatis, at dolores quis
-            eos non ipsa recusandae qui accusantium. Beatae laborum neque itaque
-            vel.
-          </p>
-          <button>Learn More</button>
-          <div class="row">
-            <div class="flex-50">
-              <p><i class="fas fa-skull-crossbones"></i> Kasus Meninggal</p>
-              <p><span>1000</span> orang</p>
-            </div>
-            <div class="flex-50">
-              <p><i class="fas fa-skull-crossbones"></i> Kasus Meninggal</p>
-              <p><span>1000</span> orang</p>
+    <main>
+      <section class="home">
+        <div class="container">
+          <div class="flex-50 left-bar">
+            <h1>Tangkal Virus dengan Masker</h1>
+            <p class="description">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti
+              dolor ipsam magni quos repudiandae magnam veritatis, at dolores quis
+              eos non ipsa recusandae qui accusantium. Beatae laborum neque itaque
+              vel.
+            </p>
+            <button>Learn More</button>
+            <div class="row">
+              <div class="flex-50">
+                <p><i class="fas fa-skull-crossbones"></i> Kasus Meninggal</p>
+                <p><span>1000</span> orang</p>
+              </div>
+              <div class="flex-50">
+                <p><i class="fas fa-skull-crossbones"></i> Kasus Meninggal</p>
+                <p><span>1000</span> orang</p>
+              </div>
             </div>
           </div>
+          <div class="flex-50">
+            <img src="assets/images/header.jpg" />
+          </div>
         </div>
-        <div class="flex-50">
-          <img src="assets/images/header.jpg" />
+      </section>
+
+      <section class="info">
+        <div class="container mt-section">
+          <div class="flex-50">
+            <h1>Kenapa harus pakai masker?</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora provident rem ducimus, possimus autem beatae minus aspernatur explicabo, saepe minima non. Laborum unde hic ducimus impedit odit laboriosam pariatur possimus.</p>
+          </div>
+          <div class="flex-50 illustration">
+            <object data="assets/mask-illustration.svg"></object>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </main>
     <script src="assets/js/navbar.js"></script>
   </body>
 </html>
