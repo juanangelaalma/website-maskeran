@@ -12,30 +12,45 @@
         display: flex;
         flex-wrap: wrap;
       }
+      .d-none {
+        display: none;
+      }
+      .d-block {
+        display: block;
+      }
     </style>
     <link rel="stylesheet" href="assets/css/navbar.css" />
-    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="stylesheet" href="assets/css/fonts.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
     <header>
       <nav>
         <div class="container">
           <h1>Maskeran.</h1>
-          <ul>
+          <ul id="ul-nav">
             <li><a href="">Home</a></li>
             <li><a href="">Database</a></li>
             <li><a href="">News</a></li>
             <li><a href="">Protection</a></li>
             <li><a href="">Contact</a></li>
           </ul>
-          <div class="btn-login">
+          <a class="btn-toggle-nav" onclick="toggleNav()">
+            <i class="fas fa-grip-lines"></i></i>
+          </a>
+          <div id="btn-login" class="btn-login">
             <button>Login</button>
           </div>
         </div>
       </nav>
     </header>
 
-    <!-- <section class="home">
+    <section class="home">
       <div class="row">
         <div class="flex-1">
           <h1>Tangkal Virus dengan Masker</h1>
@@ -61,6 +76,7 @@
           <img src="" />
         </div>
       </div>
-    </section> -->
+    </section>
+    <script src="assets/js/navbar.js"></script>
   </body>
 </html>

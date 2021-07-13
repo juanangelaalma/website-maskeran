@@ -7,16 +7,23 @@ body {
   padding: 0;
 }
 
+nav {
+  background-color: rgba(225, 225, 225, 0.83);
+}
+
 nav h1 {
   flex: 25%;
   font-size: 33px;
   font-family: 'Segoe UI Bold';
   color: #2E79A3;
+  margin: 0;
+  padding: 10px;
 }
 
 nav ul {
-  padding: 20px 0 20px 25px;
+  padding: 24px 0 24px 25px;
   flex: 50%;
+  margin: 0;
 }
 
 nav li {
@@ -34,8 +41,12 @@ nav li a {
 }
 
 nav .btn-login {
-  padding: 25px;
+  padding: 15px;
   flex: 15%;
+}
+
+.btn-toggle-nav {
+  display: none;
 }
 
 nav .btn-login button {
@@ -50,14 +61,28 @@ nav .btn-login button {
 }
 
 @media screen and (max-width: 1020px) {
-  nav h1, nav ul, nav .btn-login {
+  nav h1 {
+    flex: 80%;
+  }
+  nav ul, nav .btn-login {
     flex: 100%;
+  }
+
+  nav h1 {
+    padding-left: 0;
+    padding-bottom: 20px;
+  }
+
+  nav i {
+    color: #2E79A3;
+    font-size: 20px;
+    display: block;
   }
 
   nav ul {
     padding: 0;
     margin: 0 0 20px 0;
-    display: flex;
+    display: none;
     flex-wrap: wrap;
   }
 
@@ -70,5 +95,19 @@ nav .btn-login button {
   nav .btn-login {
     padding-left: 0;
     padding-top: 0;
+    display: none;
+  }
+
+  .btn-toggle-nav {
+    display: block;
+    position: absolute;
+    top: 25px;
+    right: 40px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .btn-toggle-nav {
+    right: 25px;
   }
 }
