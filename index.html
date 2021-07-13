@@ -12,11 +12,18 @@
         display: flex;
         flex-wrap: wrap;
       }
+      .row {
+        display: flex;
+        width: 100%;
+      }
       .d-none {
         display: none;
       }
       .d-block {
         display: block;
+      }
+      .flex-50 {
+        flex: 50%
       }
     </style>
     <link rel="stylesheet" href="assets/css/navbar.css" />
@@ -24,9 +31,8 @@
     <link
       rel="stylesheet"
       href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-      crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="assets/css/home.css">
   </head>
   <body>
     <header>
@@ -51,10 +57,10 @@
     </header>
 
     <section class="home">
-      <div class="row">
-        <div class="flex-1">
+      <div class="container">
+        <div class="flex-50 left-bar">
           <h1>Tangkal Virus dengan Masker</h1>
-          <p>
+          <p class="description">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti
             dolor ipsam magni quos repudiandae magnam veritatis, at dolores quis
             eos non ipsa recusandae qui accusantium. Beatae laborum neque itaque
@@ -62,18 +68,18 @@
           </p>
           <button>Learn More</button>
           <div class="row">
-            <div class="flex-1">
-              <p><i>aw</i> Kasus Positif</p>
-              <p><span class="count-case">1000</span> orang</p>
+            <div class="flex-50">
+              <p><i class="fas fa-skull-crossbones"></i> Kasus Meninggal</p>
+              <p><span>1000</span> orang</p>
             </div>
-            <div class="flex-1">
-              <span><i>dw</i> Kasus Positif</span>
-              <p><span class="count-case">1000</span> orang</p>
+            <div class="flex-50">
+              <p><i class="fas fa-skull-crossbones"></i> Kasus Meninggal</p>
+              <p><span>1000</span> orang</p>
             </div>
           </div>
         </div>
-        <div class="flex-1">
-          <img src="" />
+        <div class="flex-50">
+          <img src="assets/images/header.jpg" />
         </div>
       </div>
     </section>

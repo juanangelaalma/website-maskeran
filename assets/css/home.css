@@ -1,0 +1,95 @@
+.home .container {
+  width: 100%;
+  padding-left: 7.5%;
+}
+.home img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.home .left-bar {
+  padding: 120px 0;
+}
+
+.home h1 {
+  font-size: 60px;
+  padding-right: 30%;
+  padding-left: 0;
+  margin-bottom: 20px;
+  font-family: 'Segoe UI Bold';
+  color: #2E79A3;
+}
+
+.home p.description {
+  margin-top: 0;
+  font-family: 'Segoe UI Regular';
+  padding-right: 80px;
+  color: #6A6D70;
+}
+
+.home button {
+  background-color: #2E79A3;
+  border: 0;
+  color: #fff;
+  padding: 20px 50px;
+  font-size: 20px;
+  border-radius: 6px;
+  margin-top: 35px;
+}
+
+.home .row{
+  padding: 40px 0;
+}
+
+.home .row p {
+  margin: 0;
+  font-family: 'Segoe UI Regular';
+  color: #6A6D70;
+  font-size: 20px;
+}
+
+.home .row p span {
+  font-size: 70px;
+  color: #2E79A3;
+  font-family: 'Segoe UI Bold';
+}
+
+.home .row p i {
+  color: #F3BC5F;
+}
+
+@media screen and (max-width: 715px) {
+  .home .container {
+    padding: 0;
+  }
+  .home .left-bar {
+    width: 100%;
+    padding-left: 7.5%;
+    padding-top: 70px;
+  }
+  .home .left-bar h1 {
+    padding-right: 7%;
+  }
+
+  .home .left-bar p.description {
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .home .left-bar h1 {
+    font-size: 30px;
+  }
+
+  .home .row {
+    padding-right: 10px;
+  }
+  .home .row p {
+    font-size: 12px;
+  }
+
+  .home .row p span {
+    font-size: 50px;
+  }
+}
