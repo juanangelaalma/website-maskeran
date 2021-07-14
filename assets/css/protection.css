@@ -1,0 +1,49 @@
+.protection {
+  background-color: #fff;
+  padding: 40px 0;
+}
+
+.protection div.flex-1 {
+  padding-right: 10px;
+}
+
+.protection h1 {
+  color: #3B5684;
+  font-family: 'Segoe UI Bold';
+  font-size: 50px;
+  margin: 0;
+}
+
+.protection p {
+  font-family: 'Segoe UI Regular';
+  color: #888B8E;
+}
+
+.protection aside .card {
+  text-align: center;
+  padding: 20px 0;
+  border-radius: 6px;
+}
+
+.protection aside .card:hover {
+  box-shadow: 3px 3px 10px rgba(56, 56, 56, 0.5);
+}
+
+.protection aside p {
+  color: #3B5684;
+  font-family: 'Segoe UI Regular';
+  font-weight: 600;
+}
+
+.protection aside object {
+  width: 100px;
+  height: 100px;
+  fill: #3B5684;
+}
+
+@media screen and (max-width: 817px) {
+  .protection h1 {
+    font-size: 40px;
+  }
+}
+

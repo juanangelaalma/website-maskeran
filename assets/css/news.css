@@ -26,9 +26,10 @@
 }
 
 .news .card:hover {
-  box-shadow: 5px 6px 25px rgba(56, 56, 56, 0.5);
+  box-shadow: 5px 6px 25px rgb(68, 68, 68);
   transform: scale(1.02);
   transition: 0.5s;
+  z-index: 1;
 }
 
 .news .card .img-place {
