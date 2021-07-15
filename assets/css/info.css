@@ -1,8 +1,12 @@
 .info {
   background-color: #fff;
-  padding-bottom: 40px;
+  
 }
 
+.info .container {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
 .info h1 {
   font-family: 'Segoe UI Bold';
   font-size: 50px;

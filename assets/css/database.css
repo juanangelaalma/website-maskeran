@@ -1,6 +1,9 @@
 .database {
-  background-color: #fff;
-  padding-top: 40px;
+  background-color: #fff
+}
+
+.database .container {
+  padding-top: 80px;
   padding-bottom: 40px;
 }
 
@@ -54,6 +57,15 @@
   }
   
   .database .card p span {
-    font-size: 30px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .database .card object {
+    width: 7px;
+  }
+  .database .card p {
+    font-size: 7px;
   }
 }

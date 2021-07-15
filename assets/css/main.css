@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.row {
+  display: flex;
+  width: 100%;
+}
+.d-none {
+  display: none;
+}
+.d-block {
+  display: block;
+}
+.flex-50 {
+  flex: 50%
+}
+.flex-1 {
+  flex: 1;
+}
+.mt-section {
+  margin-top: 50px;
+}
+
+.active {
+  color: #2E79A3 !important;
+  font-family: 'Segoe UI Bold' !important;
+}

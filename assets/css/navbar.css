@@ -112,10 +112,19 @@ nav .btn-login button {
     top: 25px;
     right: 60px;
   }
+  .btn-toggle-nav img {
+    width: 20px;
+    margin-top: 5px;
+  }
 }
 
 @media screen and (max-width: 700px) {
   .btn-toggle-nav {
     right: 25px;
+  }
+
+  .btn-toggle-nav img {
+    width: 15px;
+    margin-top: 5px;
   }
 }
