@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Maskeran Yukk!</title>
     <style>
+      * {
+        box-sizing: border-box;
+      }
       .container {
         width: 85%;
         margin: auto;
@@ -42,10 +45,13 @@
     <link rel="stylesheet" href="assets/css/info.css">
     <link rel="stylesheet" href="assets/css/news.css">
     <link rel="stylesheet" href="assets/css/protection.css">
+    <link rel="stylesheet" href="assets/css/database.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
   </head>
   <body>
     <header>
-      <nav>
+      <nav id="navbar">
         <div class="container">
           <h1>Maskeran.</h1>
           <ul id="ul-nav">
@@ -184,7 +190,100 @@
           </div>
         </article>
       </section>
+
+      <section class="database">
+        <div class="container">
+          <div class="card">
+            <div class="flex-1">
+              <p><object data="assets/virus-solid.svg"></object> Kasus Positif</p>
+              <p><span>1000</span> orang</p>
+            </div>
+            <div class="flex-1">
+              <p><object data="assets/skull-crossbones-solid.svg"></object> Kasus Meninggal</p>
+              <p><span>1000</span> orang</p>
+            </div>
+            <div class="flex-1">
+              <p><object data="assets/heartbeat-solid.svg"></object> Kasus Meninggal</p>
+              <p><span>1000</span> orang</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact">
+        <div class="container">
+          <div class="card">
+            <div class="contact-header">
+              <object data="assets/phone-volume-solid.svg"></object>
+              <div class="contact-info">
+                <h2>Telepon</h2>
+                <p>0831-1106-4486</p>
+              </div>
+            </div>
+            <button>Telepon Sekarang</button>
+          </div>
+          <div class="card">
+            <div class="contact-header">
+              <object data="assets/comment-dots-solid.svg"></object>
+              <div class="contact-info">
+                <h2>Message</h2>
+                <p>0831-1106-4486</p>
+              </div>
+            </div>
+            <button>Message Sekarang</button>
+          </div>
+          <div class="card">
+            <div class="contact-header">
+              <object data="assets/video-solid.svg"></object>
+              <div class="contact-info">
+                <h2>VidCall</h2>
+                <p>0831-1106-4486</p>
+              </div>
+            </div>
+            <button>VidCall Sekarang</button>
+          </div>
+          <div class="card">
+            <div class="contact-header">
+              <object data="assets/envelope-open-text-solid.svg"></object>
+              <div class="contact-info">
+                <h2>Email</h2>
+                <p>covid@gmail.com</p>
+              </div>
+            </div>
+            <button>Email Sekarang</button>
+          </div>
+        </div>
+      </section>
     </main>
+
+    <footer>
+      <div class="container">
+        <div class="flex-1">
+          <h1>Maskeran.</h1>
+          <p>Is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's
+            standard dummy text ever since the 1500s, when 
+            an unknown printer took a galley of type and 
+            scrambled it to make a type</p>
+        </div>
+        <div class="flex-1">
+          <h2>Latest News</h2>
+          <ul>
+            <li>Vaksin Covid-19 Individu Mulai Dijual Hari Ini...</li>
+            <li>Bupati Bekasi Eka Supria Atmaja Meninggal...</li>
+          </ul>
+        </div>
+        <div class="flex-1">
+          <h2>Media Sosial</h2>
+          <div class="row">
+            <object data="assets/instagram-brands.svg"></object>
+            <object data="assets/facebook-f-brands.svg"></object>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script src="assets/js/navbar.js"></script>
+
+    <script src="assets/js/main.js"></script>
   </body>
 </html>

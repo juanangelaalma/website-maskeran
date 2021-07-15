@@ -8,7 +8,7 @@
 }
 
 .protection h1 {
-  color: #3B5684;
+  color: #2E79A3;
   font-family: 'Segoe UI Bold';
   font-size: 50px;
   margin: 0;
@@ -30,7 +30,7 @@
 }
 
 .protection aside p {
-  color: #3B5684;
+  color: #2E79A3;
   font-family: 'Segoe UI Regular';
   font-weight: 600;
 }
@@ -38,7 +38,7 @@
 .protection aside object {
   width: 100px;
   height: 100px;
-  fill: #3B5684;
+  fill: #2E79A3;
 }
 
 @media screen and (max-width: 817px) {

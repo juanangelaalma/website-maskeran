@@ -68,7 +68,6 @@ nav .btn-login button {
 @media screen and (max-width: 1020px) {
   nav {
     position: fixed;
-    background-color: #fff;
   }
   nav h1 {
     flex: 80%;
