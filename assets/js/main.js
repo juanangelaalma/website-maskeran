@@ -9,3 +9,10 @@ function scrollFunction() {
     document.querySelector('#navbar').style.backgroundColor = 'rgba(255, 255, 255, 0.83)'
   }
 }
+
+function setActive(element) {
+  const active = document.querySelector('.active')
+  active.classList.remove('active')
+
+  element.classList.add('active')
+}

@@ -1,13 +1,1 @@
-@font-face {
-  font-family: "Segoe UI Regular";
-  font-style: normal;
-  font-weight: normal;
-  src: url("../fonts/segoe-ui/Segoe\ UI.woff");
-}
-
-@font-face {
-  font-family: "Segoe UI Bold";
-  font-style: normal;
-  font-weight: normal;
-  src: url("../fonts/segoe-ui/Segoe\ UI\ Bold.woff");
-}
+footer .container{padding:40px 20px}footer h1, h2{color:#2E79A3;margin-bottom:20px}footer h1{font-family:'Segoe UI Bold';margin-top:10px}footer h2, p, li{font-family:'Segoe UI Regular'}footer p{color:#888B8E;margin:0;padding-right:20px}footer ul{margin:0;padding:0 20px 0 0}footer ul li{list-style:none;margin-bottom:20px;color:#3B5684;font-size:20px}footer object{margin-right:20px}@media screen and (max-width: 700px){footer .flex-1{flex:100%}}@font-face{font-family:"Segoe UI Regular";font-style:normal;font-weight:normal;src:url("../fonts/segoe-ui/Segoe\ UI.woff")}@font-face{font-family:"Segoe UI Bold";font-style:normal;font-weight:normal;src:url("../fonts/segoe-ui/Segoe\ UI\ Bold.woff")}
